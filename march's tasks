@@ -1,0 +1,122 @@
+# 🚀 Resumo Mensal - Desenvolvimento de Software 🚀
+
+## Semana de 01/02 a 09/02
+
+### QUINTA-FEIRA - 01/02
+
+**Frontend:**
+- Terminar a tela de sign-in ✅
+- Testar a requisição GET 🧪
+- Adicionar Popup toast na tela de login 📢
+
+**Backend:**
+- Criar o enviroments 🛠️
+- Adicionar a signin interface 📝
+- Adicionar as categorias dinamicamente (GET)* ➕
+
+### SEXTA-FEIRA - 02/02
+
+**Backend:**
+- Fazer as requisições POST, UPDATE e DELETE de categorias 🔄
+
+### SEGUNDA-FEIRA - 05/02
+
+**Backend:**
+- Adicionar renovação de token automática
+  - Adicionar o refresh token 🔁
+
+### QUINTA-FEIRA - 08/02
+
+**Frontend:**
+- Access token
+  - Caso o token não exista, redirecionar para a tela inicial 🔄
+
+### SEXTA-FEIRA - 09/02
+
+**Frontend:**
+- Access token
+  - Caso o refresh token esteja expirado, redirecionar para a tela inicial 🔄
+- Adicionar background à tela de login 🖼️
+
+## Semana de 15/02 a 01/03
+
+### QUINTA-FEIRA - 15/02
+
+**Backend:**
+- Criar o serviço de cliente 🧑‍💼
+- Pegar os dados dos clientes pelo banco de dados 📊
+- Editar os dados do cliente ✏️
+- Apagar os dados do cliente 🗑️
+
+### SEXTA-FEIRA - 16/02
+
+**Backend:**
+- Listar todos os clientes de uma conta específica 📋
+
+### Segunda-feira - 19/02
+
+**Backend:**
+- Criar o serviço de estudo no backend 📚
+
+**Frontend:**
+- Criar o serviço de estudo no frontend 📚
+
+### TERÇA-FEIRA - 20/02
+
+**Backend:**
+- Criar novo endpoint de questions para obter todas as questions por categoria ❓
+
+**Frontend:**
+- Listar todos os estudos de um cliente específico 📋
+
+### QUARTA-FEIRA - 21/02
+
+**Backend:**
+- Listando todos os estudos de um cliente específico 📋
+- Deletando um estudo de um cliente específico 🗑️
+
+### QUINTA-FEIRA - 22/02
+
+**Backend:**
+- Remodelar o banco de dados 🛠️
+  - Adicionar uma nova tabela chamada studies no banco de dados 📊
+  - Reajustar os serviços de cliente, estudo, dinamic fields e questions no backend 🔄
+  - Reajustar as requisições de cliente e estudo no backend 🔄
+
+### SEXTA-FEIRA - 23/02
+
+**Frontend:**
+- Criar o serviço de POST e PUT do estudo no frontend 📝
+
+### SEGUNDA-FEIRA - 26/02
+
+**Backend:**
+- Criar e recriar os relacionamentos da tabela estudo com as tabelas de conta e cliente 🔄
+- Modificar o serviço prisma no backend para obter as respostas corretas conforme solicitado 🔄
+
+### TERÇA-FEIRA - 27/02
+
+**Backend:**
+- Criar rotas de GET, PUT e DELETE dos estudos pessoais (estudos apenas vinculados à conta) 🔄
+- Integrar o backend com o frontend para criar, editar e apagar estudos pessoais 🔄
+
+### QUARTA-FEIRA - 28/02
+
+**Backend:**
+- Adicionar campo pontuação à tabela avaliação e retornar na requisição 📈
+
+### QUINTA-FEIRA - 29/02
+
+**Backend:**
+- Modificar o serviço de cliente para, ao criar um cliente, criar também um estudo e os seus dinamic fields 🔄
+- Criar o serviço de gráficos 📊
+- Criar useCase de gráficos 🔄
+- Retornar resultado da requisição para o gráfico de diagnóstico 📊
+- Retornar resultado da requisição para o gráfico de nota de perspectiva 📊
+
+### SEXTA-FEIRA - 01/03
+
+**Backend:**
+- Retornar resultado da requisição para o gráfico de resultado geral - diagnóstico da empresa 📊
+- Retornar resultado da requisição para o gráfico de resultado geral - nível de excelência 📊
+- Adicionar DTO nos serviços e use cases de account e auth 🛠️
